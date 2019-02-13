@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(240,240,240);
+}
+
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+    color: #DD5555;
+    font-size: 22px;
+}
+
+h2 {
+  color: #4F9DA6;
+}
+
+p {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+}
+
+a {
+  color: #831212;
+  text-decoration: none;
+}
+
+i {
+  color: #831212;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+
+.avatar {
+  border-radius: 49%;
+}
+
+/*custom classes and ids */
+.container {
+  margin: 30px auto;
+  width: 700;
+}
+
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 30px 25px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 7px 30px -1px rgba(0,0,0,0.44);
+}
+
+.movie-picture img{
+  border-radius: 30px;
+}
+
+.btn-red {
+  background-color: #831212;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-family: Monoton;
+  font-size: 15px;
+}
+
+.btn-red:hover {
+ text-decoration: none;
+}
+
+
+#intro p{
+  margin-bottom: 30px;
+}
+
+.list-inline {
+  padding-right: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  margin-right: 10px ;
+}
+
+
+.list-inline li i{
+  font-size: 30px;
+}
+
+/*adding responsiveness*/
+
+@media (max-width: 1000px) {
+  .container{
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .container{
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .container{
+    width: 300px;
+  }
+
+
